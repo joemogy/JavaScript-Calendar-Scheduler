@@ -18,7 +18,8 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -27,12 +28,77 @@
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
+      <div id="here">
+        <p id="currentTime" class="lead"></p>
+      </div>
     </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
-    </div>
 
+    <div class="container">
+      <div class="row time-block">
+        <div class="col-1 hour"><p>6 am</p></div>
+        <div class="col text-box description"><p class="event-text"></p></div>
+        <div class="col-1 save-btn"><span class="fas fa-save"><br>Save</span></div>
+      </div>
+      <div class="row time-block">
+        <div class="col-1 hour"><p>7 am</p></div>
+        <div class="col text-box description"><p class="event-text"></p></div>
+        <div class="col-1 save-btn"><span class="fas fa-save"><br>Save</span></div>
+      </div>
+      <div class="row time-block">
+        <div class="col-1 hour"><p>8 am</p></div>
+        <div class="col text-box description"><p class="event-text"></p></div>
+        <div class="col-1 save-btn"><span class="fas fa-save"><br>Save</span></div>
+      </div>
+      <div class="row time-block">
+        <div class="col-1 hour"><p>9 am</p></div>
+        <div class="col text-box description"><p class="event-text"></p></div>
+        <div class="col-1 save-btn"><span class="fas fa-save"><br>Save</span></div>
+      </div>
+      <div class="row time-block">
+        <div class="col-1 hour"><p>10 am</p></div>
+        <div class="col text-box description"><p class="event-text"></p></div>
+        <div class="col-1 save-btn"><span class="fas fa-save"><br>Save</span></div>
+      </div>
+      <div class="row time-block">
+        <div class="col-1 hour"><p>11 am</p></div>
+        <div class="col text-box description"><p class="event-text"></p></div>
+        <div class="col-1 save-btn"><span class="fas fa-save"><br>Save</span></div>
+      </div>
+      <div class="row time-block">
+        <div class="col-1 hour"><p>12 pm</p></div>
+        <div class="col text-box description"><p class="event-text"></p></div>
+        <div class="col-1 save-btn"><span class="fas fa-save"><br>Save</span></div>
+      </div>
+      <div class="row time-block">
+        <div class="col-1 hour"><p>1 pm</p></div>
+        <div class="col text-box description"><p class="event-text"></p></div>
+        <div class="col-1 save-btn"><span class="fas fa-save"><br>Save</span></div>
+      </div>
+      <div class="row time-block">
+        <div class="col-1 hour"><p>2 pm</p></div>
+        <div class="col text-box description"><p class="event-text"></p></div>
+        <div class="col-1 save-btn"><span class="fas fa-save"><br>Save</span></div>
+      </div>
+      <div class="row time-block">
+        <div class="col-1 hour"><p>3 pm</p></div>
+        <div class="col text-box description"><p class="event-text"></p></div>
+        <div class="col-1 save-btn"><span class="fas fa-save"><br>Save</span></div>
+      </div>
+      <div class="row time-block">
+        <div class="col-1 hour"><p>4 pm</p></div>
+        <div class="col text-box description"><p class="event-text"></p></div>
+        <div class="col-1 save-btn"><span class="fas fa-save"><br>Save</span></div>
+      </div>
+      <div class="row time-block">
+        <div class="col-1 hour"><p>5 pm</p></div>
+        <div class="col text-box description"><p class="event-text"></p></div>
+        <div class="col-1 save-btn"><span class="fas fa-save"><br>Save</span></div>
+      </div>
+    </div>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    
   </body>
 </html>

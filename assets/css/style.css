@@ -1,0 +1,109 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  textarea{
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+  
+  .description{
+    white-space: pre-wrap;
+  }
+  
+  .time-block{
+    text-align: center;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid skyblue;;
+  }
+  
+  .hour {
+    background-color: lightblue;
+    color: #000000;
+    border-top: 1px dashed #000000;
+  }
+  
+  .hour p {
+    padding: 10px 0 0 0;
+  }
+  
+  .event-text {
+    text-align: left;
+    padding: 10px 0 0 0;
+  }
+  
+  .text-box textarea {
+    border:none;
+    position: relative;
+    top: 10px;
+    resize: none;
+  }
+  
+  .text-box textarea:focus {
+    border: none;
+    outline: none;
+  }
+  
+  .past {
+    background-color: #d3d3d3;
+    color: black;
+  }
+  
+  .past-textarea:focus {
+    background-color: #d3d3d3;
+  }
+  
+  .present {
+    background-color: red;
+    color: black;
+  }
+  
+  .present-textarea:focus {
+    background-color: orangered;
+  }
+  
+  .future {
+    background-color: lightgreen;
+    color: black;
+  }
+  
+  .future-textarea:focus {
+    background-color: limegreen;
+  }
+  
+  .save-btn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: teal;
+    color: skyblue;
+  }
+  
+  .save-btn span {
+    padding: 22px 0 0 0;
+  }
+  
+  .save-btn:hover {
+    color: black;
+    background-color: orange;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+  }
